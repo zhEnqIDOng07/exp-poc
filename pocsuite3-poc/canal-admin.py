@@ -9,7 +9,7 @@ from pocsuite3.api import (
 import json
 
 # 关于类的继承
-class XXLJOBPOC(POCBase):
+class Canal_Admin(POCBase):
     # fofa语句: title="Canal Admin"
     vulID = "0"  # ssvid ID 如果是提交漏洞的同时提交 PoC,则写成 0
     version = "1"  # 默认为1
@@ -91,4 +91,4 @@ def other_utils_func():
 
 
 # 注册 DemoPOC 类 , 必须要注册
-register_poc(XXLJOBPOC)
+register_poc(Canal_Admin)
